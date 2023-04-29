@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Colors */
+    --slate-900: rgb(12 10 9);
+    /* Fonts */
+    --poppins: 'Poppins', sans-serif;
+    --dark1: #121212;
+}
+
+body {
+    background-color: var(--slate-900);
+    font-family: var(--poppins);
+}
+
+.bg__dark1 {
+    background-color: var(--dark1);
+}
+
