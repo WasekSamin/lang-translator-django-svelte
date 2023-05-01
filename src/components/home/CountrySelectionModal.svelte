@@ -41,7 +41,7 @@
 
     if (searchText === "") return;
 
-    const foundCountries = countries.filter(country => country.country.toLowerCase().includes(searchText));
+    const foundCountries = countries.filter(country => country.country.toLowerCase().includes(searchText.toLowerCase()));
     countries = [...foundCountries];
   }
 
