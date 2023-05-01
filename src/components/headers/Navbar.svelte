@@ -20,7 +20,7 @@
 </script>
 
 <div class="w-full bg-stone-800 px-5 md:px-10 lg:px-20">
-  <div class="w-full max-w-screen-2xl">
+  <div class="w-full max-w-screen-2xl mx-auto">
     <div class="flex items-center justify-between">
       <a href="/">
         <img
